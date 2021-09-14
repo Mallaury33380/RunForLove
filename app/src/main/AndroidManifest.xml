@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.runforlove">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".pages.perso"></activity>
+        <activity android:name=".pages.persos" />
+        <activity android:name=".pages.nouvelleDiscussion" />
+        <activity android:name=".pages.maDiscussion" />
+        <activity android:name=".pages.mesEvents" />
+        <activity android:name=".pages.pageEvent" />
+        <activity android:name=".pages.nouvelEvent" />
+        <activity android:name=".pages.aVenir" />
+        <activity android:name=".pages.dansVille" />
+        <activity android:name=".pages.ancienneActivite" />
+        <activity android:name=".pages.nouvelleActivite" />
+        <activity android:name=".pages.Mbti" />
+        <activity android:name=".pages.event" />
+        <activity android:name=".pages.profil" />
+        <activity android:name=".pages.discussion" />
+        <activity android:name=".pages.activite" />
+        <activity android:name=".pages.Principal" />
+        <activity
+            android:name=".pages.inscription"
+            android:parentActivityName=".pages.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pages.connexion"
+            android:parentActivityName=".pages.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".pages.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pages.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

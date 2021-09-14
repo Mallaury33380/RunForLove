@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="id" name="boutons" />
+    <item type="id" name="n0" />
+    <item type="id" name="n1" />
+    <item type="id" name="n2" />
+    <item type="id" name="n3" />
+    <item type="id" name="n4" />
+    <item type="id" name="questions" />
+    <item type="id" name="Nomquestions" />
+</resources>

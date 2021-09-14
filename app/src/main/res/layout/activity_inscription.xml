@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.inscription"
+    android:background="@color/couleurFond"
+    >
+    <ImageView
+        android:id="@+id/image_icon"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/simonetta_black"
+        android:text="@string/app_name"
+        android:textColor="@color/couleurAuthentification"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/image_icon"
+        app:layout_constraintLeft_toRightOf="@+id/image_icon" />
+
+
+
+    <EditText
+        android:id="@+id/saisir_pseudo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/saisir_pseudo"
+        android:textColorHint="@color/couleur_blanc"
+        android:inputType="text"
+        android:textColor="@color/couleur_blanc"
+        android:fontFamily="@font/simonetta_black"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginBottom="5dp"
+        android:width="200dp"
+        app:layout_constraintBottom_toTopOf="@+id/saisir_dateNaissance"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+    <EditText
+        android:id="@+id/saisir_dateNaissance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/saisir_dateNaissance"
+        android:textColorHint="@color/couleur_blanc"
+        android:inputType="date"
+        android:textColor="@color/couleur_blanc"
+        android:fontFamily="@font/simonetta_black"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginBottom="5dp"
+        android:width="200dp"
+        android:maxLength="4"
+        app:layout_constraintBottom_toTopOf="@+id/saisir_mdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/saisir_mdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/saisir_mdp"
+        android:textColorHint="@color/couleur_blanc"
+        android:inputType="text"
+        android:textColor="@color/couleur_blanc"
+        android:fontFamily="@font/simonetta_black"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="70dp"
+        android:width="200dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <EditText
+        android:id="@+id/confirmer_mdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirmer_mdp"
+        android:textColorHint="@color/couleur_blanc"
+        android:inputType="text"
+        android:textColor="@color/couleur_blanc"
+        android:fontFamily="@font/simonetta_black"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@drawable/custom_edittext"
+        android:width="200dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saisir_mdp"
+        />
+    <RadioGroup
+        android:id="@+id/select_Genre"
+        android:background="@drawable/custom_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/confirmer_mdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="5dp"
+
+        >
+        <RadioButton
+            android:id="@+id/homme"
+            android:textColor="@color/couleur_blanc"
+            android:fontFamily="@font/simonetta_black"
+            android:text="@string/homme"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/femme"
+            android:textColor="@color/couleur_blanc"
+            android:fontFamily="@font/simonetta_black"
+            android:text="@string/femme"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <EditText
+        android:id="@+id/ville"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/ville"
+        android:textColorHint="@color/couleur_blanc"
+        android:inputType="text"
+        android:textColor="@color/couleur_blanc"
+        android:fontFamily="@font/simonetta_black"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="@drawable/custom_edittext"
+        android:width="200dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_Genre"
+        />
+
+
+    <Button
+        android:id="@+id/validation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s_inscrire"
+        android:textColor="@color/couleur_blanc"
+        android:fontFamily="@font/simonetta_black"
+        android:textSize="20dp"
+        android:background="@drawable/custom_btn2"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/ville"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="couleurTexteAuthentification">#7B85B1</color>
+    <color name="couleurAuthentification">#FFEAFF</color>
+    <color name="couleurFond">#076AB5</color>
+    <color name="custom_btn1">#890AE3</color>
+    <color name="custom_btn2">#4F0187</color>
+    <color name="couleur_blanc">#ffff</color>
+    <color name="custom_edittext">#B1B1B1</color>
+    <color name="custom_btn_principal">#FAE6FD</color>
+    <color name="toulouse">#FF0000</color>
+    <color name="toulousefin">#2D29BD</color>
+    <color name="perpignan">#FA0000</color>
+    <color name="perpignanfin">#FFFF00</color>
+    <color name="clermont">#FF4646</color>
+    <color name="clermontfin">#0000FF</color>
+    <color name="zonetexte">#6AEC70</color>
+    <color name="textesmessages">#080647</color>
+</resources>

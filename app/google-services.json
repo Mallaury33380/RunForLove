@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1049994532761",
+    "firebase_url": "https://runforlove-cc4b7.firebaseio.com",
+    "project_id": "runforlove-cc4b7",
+    "storage_bucket": "runforlove-cc4b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049994532761:android:faa0a7bc0df28f6265a508",
+        "android_client_info": {
+          "package_name": "com.example.runforlove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049994532761-c5racdkr2a8c3t15r1ar2u372f41a3m7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.runforlove",
+            "certificate_hash": "d8226d10085a26071c7315813e6b2eb7caf10bdb"
+          }
+        },
+        {
+          "client_id": "1049994532761-faau6pik7qs6t1rb47p4vl24jpgjjub5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZrb50Se6Gq5eyXREcb9CJIhaxb1Gh_qQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049994532761-faau6pik7qs6t1rb47p4vl24jpgjjub5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
